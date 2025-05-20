@@ -13,6 +13,8 @@ intents.message_content = True
 intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
+print("Starting bot...")
+
 
 # Constants
 GUILD_ID = 1355091741501554859
@@ -99,21 +101,21 @@ class TurfModal(Modal, title="Turf Availability"):
                        required=False,
                        max_length=100)
 
-    async def on_submit(self, interaction: discord.Interaction):
-        avail = self.availability.value.lower().strip()
-        reason = self.reason.value.strip()
-        if avail == "yes but later" and reason:
-            reason_text = f"Will join later: {reason}"
-            avail = "yes_later"   # changed here to differentiate "yes but later"
-        elif avail == "no":
-            reason_text = reason or "No reason given"
-        else:
-            reason_text = ""
-        await record_response(interaction.user, avail, reason_text)
-        await update_summary()
-        await interaction.response.send_message(
-            "✅ Your response has been recorded!", ephemeral=True)
-
+   async def on_submit(self, interaction: discord.Interaction):
+    avail = self.availability.value.lower().strip()
+    reason = self.reason.value.strip()
+    if avail == "yes but later":
+        reason_text = f"Will join later: {reason}" if reason else "Will join later (time not specified)"
+        avail = "yes_later"   # changed here to differentiate "yes but later"
+    elif avail == "no":
+        reason_text = reason or "No reason given"
+    else:
+        reason_text = ""
+    await record_response(interaction.user, avail, reason_text)
+    await update_summary()
+    await interaction.response.send_message(
+        "✅ Your response has been recorded!", ephemeral=True)
+    
 
 class LOAModal(Modal, title="Log Leave of Absence"):
     start = TextInput(label="Start Date (dd/mm/yyyy)",
