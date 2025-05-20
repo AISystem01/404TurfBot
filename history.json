@@ -1,0 +1,182 @@
+{
+  "1345483399250579579": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:34:30"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:07:40"
+    },
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "09:43:54"
+    }
+  ],
+  "506479034109132800": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:34:32"
+    },
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "09:04:26"
+    }
+  ],
+  "737013012929445929": [
+    {
+      "date": "2025-05-19",
+      "available": "yessssssss",
+      "reason": "",
+      "time": "16:34:33"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:36:28"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "y",
+      "reason": "",
+      "time": "17:07:10"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "y",
+      "reason": "",
+      "time": "17:07:37"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:09:21"
+    }
+  ],
+  "1224441522288590880": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:34:47"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:08:05"
+    }
+  ],
+  "1302066997957496873": [
+    {
+      "date": "2025-05-19",
+      "available": "no",
+      "reason": "On Leave of Absence",
+      "time": "16:35:18"
+    },
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "10:53:00"
+    }
+  ],
+  "694481745009049671": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:35:44"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes_later",
+      "reason": "",
+      "time": "17:09:12"
+    },
+    {
+      "date": "2025-05-20",
+      "available": "yes_later",
+      "reason": "",
+      "time": "09:09:55"
+    }
+  ],
+  "269915089170071553": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:41:10"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:07:15"
+    }
+  ],
+  "482311447083483152": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "16:46:44"
+    },
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "09:37:14"
+    }
+  ],
+  "452400717118832652": [
+    {
+      "date": "2025-05-19",
+      "available": "yea",
+      "reason": "",
+      "time": "16:51:05"
+    },
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:07:03"
+    }
+  ],
+  "246836253159325708": [
+    {
+      "date": "2025-05-19",
+      "available": "yes",
+      "reason": "",
+      "time": "17:05:09"
+    }
+  ],
+  "143114283352326145": [
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "09:04:39"
+    }
+  ],
+  "656229093494358026": [
+    {
+      "date": "2025-05-20",
+      "available": "yes",
+      "reason": "",
+      "time": "09:45:10"
+    }
+  ]
+}

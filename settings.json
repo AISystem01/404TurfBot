@@ -1,0 +1,18 @@
+{
+  "message": "Are you available for turf at 8pm?",
+  "hour": 9,
+  "minute": 4,
+  "admin_roles": [
+    1373947954263625728
+  ],
+  "announcement": "Numbers Check for turf tonight at 7 30pm",
+  "turf_channel": 1355091742092824744,
+  "log_channel": 1374039856195571804,
+  "admin_panel_channel": 1374039316942291036,
+  "loa_list_channel": 1374039695142420662,
+  "ping_role_id": null,
+  "ADMIN_PANEL_CHANNEL_ID": 1374039316942291036,
+  "LOG_CHANNEL_ID": 1374039856195571804,
+  "LOA_LIST_CHANNEL_ID": 1374039695142420662,
+  "TURF_CHANNEL_ID": 1355091742092824744
+}
