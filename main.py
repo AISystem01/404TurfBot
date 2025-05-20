@@ -787,4 +787,8 @@ async def on_ready():
     clear_daily.start()
 
 
-bot.run(os.environ['TOKEN'])
+try:
+    bot.run(os.environ['TOKEN'])
+except Exception as e:
+    print(f"Bot failed to start: {e}")
+
